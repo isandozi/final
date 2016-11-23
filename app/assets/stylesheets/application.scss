@@ -16,7 +16,9 @@
  *= require_self
  */
 
-body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
+body, body > p, body > ol, body > ul, body > td {margin: 8px !important;
+  background: red;
+}
 
 #banner {
   position: relative;
@@ -55,14 +57,14 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
   #main {
     padding: 1em;
-    background: white;
+    background: red;
     flex: 1;
   }
 
 //
   #side {
     padding: 1em 2em;
-    background: #141;
+    background: red;
 
     form, div {
       display: inline;
